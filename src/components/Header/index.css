@@ -1,0 +1,154 @@
+.nav-header {
+  display: flex;
+  border-bottom: 1px solid rgb(243, 243, 243);
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-header {
+    align-items: center;
+  }
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.website-logo {
+  width: 53px;
+  height: 43px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 53px;
+    height: 43px;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-link {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #475569;
+}
+.home {
+  color: #f7931e;
+}
+.cart {
+  color: #334155;
+}
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 16px;
+  color: white;
+  background-color: #f7931e;
+  border: none;
+  border-radius: 8px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-desktop-btn {
+    display: none;
+  }
+}
+
+.logout-mobile-btn {
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-mobile-btn {
+    display: none;
+  }
+}
+
+.logout-icon {
+  width: 24px;
+}
+
+.nav-menu-mobile {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu-mobile {
+    display: none;
+  }
+}
+
+.nav-menu-list-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: #e6f6ff;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.nav-menu-item-mobile {
+  margin: 0px;
+  cursor: pointer;
+}
+
+.nav-bar-image {
+  width: 24px;
+}
+
+/* updated */
+
+.company-name {
+  color: #f7931e;
+  font-size: 24px;
+  font-style: italic;
+}
+.left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  flex: 1;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
