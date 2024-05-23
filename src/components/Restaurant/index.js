@@ -14,7 +14,7 @@ const Restaurant = props => {
           className="imageContainer"
         />
         <div className="restaurant-brief-details">
-          <span className="name">{details.name}</span>
+          <span className="restaurant-name">{details.name}</span>
           <span className="cuisine">{details.cuisine}</span>
           <div>
             <StarIcon />

@@ -1,0 +1,64 @@
+.footer-container {
+  background-color: #0f172a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.logo-and-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-style: italic;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: white;
+}
+
+.tag-line {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+  margin-top: 24px;
+}
+.contact-us-text {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+}
+.pinterest-icon-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-left: 8px;
+  background-color: white;
+}
+.facebook-icon-container {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+.contact-us-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 32px;
+  margin-top: 48px;
+}

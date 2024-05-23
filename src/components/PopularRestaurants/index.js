@@ -5,6 +5,8 @@ import Loader from 'react-loader-spinner'
 
 import Restaurant from '../Restaurant/index'
 import SortIcon from '../../Icons/SortIcon'
+import ChevronLeftIcon from '../../Icons/ChevronLeftIcon'
+import ChevronRightIcon from '../../Icons/ChevronRightIcon'
 
 const apiStatusConstants = {
   initial: 'Initial',
@@ -173,14 +175,24 @@ const PopularRestaurants = () => {
       <hr className="line" />
       {renderDisplayView()}
       <div className="pagination">
-        <button type="button" onClick={onCLickDecrement}>
-          -
+        <button
+          type="button"
+          className="pagination-button"
+          onClick={onCLickDecrement}
+          aria-label="Previous page"
+        >
+          <ChevronLeftIcon height={16} width={16} />
         </button>
-        <p>
-          {page}of {maxPage}
+        <p className="pagination-text">
+          {page} of {maxPage}
         </p>
-        <button type="button" onClick={onCLickIncrement}>
-          +
+        <button
+          type="button"
+          className="pagination-button"
+          onClick={onCLickIncrement}
+          aria-label="Next page"
+        >
+          <ChevronRightIcon height={16} width={16} />
         </button>
       </div>
     </div>

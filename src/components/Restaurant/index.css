@@ -18,7 +18,7 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.name {
+.restaurant-name {
   font-family: 'DM Sans';
   font-weight: 700;
   font-size: 18px;

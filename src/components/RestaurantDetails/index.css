@@ -1,0 +1,92 @@
+.restaurant-header {
+  padding-right: 165px;
+  padding-left: 165px;
+}
+.landing-section-container {
+  background-image: url('https://res.cloudinary.com/dbdke7gop/image/upload/v1716447501/Frame_279_tjbv4p.png');
+  height: 344px;
+  background-size: cover;
+  margin-left: -165px;
+  margin-right: -165px;
+}
+
+.landing-section-details {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 165px;
+  padding-left: 165px;
+  display: flex;
+}
+.restaurant-image {
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+}
+.landing-left-section {
+  margin-left: 30px;
+}
+.landing-restaurant-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.landing-restaurant-cuisine {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.landing-restaurant-location {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.ratings-cost-of-two-container {
+  display: flex;
+}
+.ratings-container {
+  margin-right: 32px;
+}
+.ratings {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-left: 4px;
+}
+.reviews-count {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+.cost-for-two-container {
+  border-left: 1px solid white;
+  padding-left: 32px;
+}
+.cost {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.count-for-two {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
